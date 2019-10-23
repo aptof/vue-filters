@@ -1,6 +1,6 @@
 {
   "name": "@aptof/vue-filters",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.2",
   "description": "Indian Locale filters for vue",
   "main": "lib/index.js",
   "scripts": {
