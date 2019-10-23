@@ -1,3 +1,2 @@
-export default (a, b) => {
-  return a+b
-}
+export * from './filters/inrFilters'
+export * from './filters/numberFilter'
