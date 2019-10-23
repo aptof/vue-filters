@@ -1,0 +1,40 @@
+{
+  "name": "@aptof/vue-filters",
+  "version": "0.0.1-beta.0",
+  "description": "Indian Locale filters for vue",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aptof/vue-filters.git"
+  },
+  "keywords": [
+    "indian",
+    "vue",
+    "filters"
+  ],
+  "author": "aptof",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aptof/vue-filters/issues"
+  },
+  "homepage": "https://github.com/aptof/vue-filters#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@types/jest": "^24.0.19",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "jest-chain": "^1.1.2",
+    "jest-extended": "^0.11.2"
+  },
+  "jshintConfig": {
+    "esversion": 9,
+    "asi": true
+  }
+}
