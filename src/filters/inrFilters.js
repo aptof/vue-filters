@@ -11,6 +11,7 @@ export const inr = (value) => {
 }
 
 function theFormatIsOk(value) {
+  if (value === 0) return true
   if (!value) return false
 
   value = value.toString()
